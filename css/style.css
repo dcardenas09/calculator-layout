@@ -1,0 +1,173 @@
+body {
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, gray); /* Standard syntax */
+    background-repeat: no-repeat;
+    height: 815px;
+}
+
+#calculator {
+	width: 340px;
+	height: 475px;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+	background: #3E3E3E;
+	border-radius: 30px;
+    border: double 11px #b2871a;
+}
+
+#screen {
+    width: 310px;
+	height: 60px;
+    background: #d9d9d9;
+    border: solid 3px #1a1a1a;
+    margin: 12px;
+    
+}
+
+.button {
+    width: 55px;
+	height: 50px;
+    background: #bfbfbf;
+    border: solid 3px #b2871a;
+    border-radius: 15px;
+    margin: 12px;
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#zero {
+    width: 227px;
+	height: 50px;
+    background: #bfbfbf;
+    border: solid 3px #b2871a;
+    border-radius: 15px;
+    margin: 12px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#equals {
+    width: 55px;
+	height: 50px;
+    background: #008000;
+    border: solid 3px #b2871a;
+    border-radius: 15px;
+    margin: 12px;
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
+    color: white;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#clear {
+    width: 55px;
+	height: 50px;
+    background: #b30000;
+    border: solid 3px #b2871a;
+    border-radius: 15px;
+    margin: 12px;
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
+    color: white;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#clear-all {
+    width: 55px;
+	height: 50px;
+    background: #b30000;
+    border: solid 3px #b2871a;
+    border-radius: 15px;
+    margin: 12px;
+    float: left;  
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
+    color: white;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+#placing {
+     padding:40px;
+}
+
+.button:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    background-color: #737373;
+}
+
+#zero:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    background-color: #737373;
+}
+
+#equals:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    background-color: #00ff00;
+}
+
+#clear:hover, #clear-all:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    background-color: #ff0000;  
+}
