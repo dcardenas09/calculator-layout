@@ -20,11 +20,13 @@ body {
 
 #screen {
     width: 310px;
-	height: 60px;
-    background: #d9d9d9;
+	height: 50px;
+    background: #4d9900;
     border: solid 3px #1a1a1a;
     margin: 12px;
-    
+    float: left;
+    font-size: 45px;
+    font-family: 'Share Tech Mono';
 }
 
 .button {
